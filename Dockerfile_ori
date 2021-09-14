@@ -1,4 +1,4 @@
-FROM jelastic/nodejs:14.17.6-forever
+FROM registry.access.redhat.com/ubi8/nodejs-14-minimal:1
 
 WORKDIR /opt/app-root/src
 
